@@ -7,5 +7,5 @@ if __name__ ==  "__main__":
         data = f.read()
         crc.initialize()
         checksum = crc.calculate(data)
-        print('[*] Checksum: {0}'.format(checksum))
-        print('[*] HEX checksum: {0}'.format(hex(checksum)))
+        print('[+] Checksum: {0}'.format(checksum))
+        print('[+] HEX checksum: {0}'.format(hex(checksum)))
